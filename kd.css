@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    /* color: rgb(238, 18, 18); */
+    background: url(container.jpg);
+    height: 350px;
+    width: 100%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer {
+    max-width: 800px;
+    margin: auto;
+    height: 200px;
+}
+
+.foo1 {
+    max-width: 545px;
+    float: left;
+}
+
+.foo1 p {
+    font-size: 20px;
+}
+
+.foo3 {
+    max-width: 10px;
+    margin: 53px 25px 25px 35px;
+    border-left: 2px solid #bbb;
+    height: 100px;
+    float: left;
+    width: 10px;
+}
+
+.foo2 {
+    max-width: 245px;
+    float: right;
+}
+
+.last {
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+    float: left;
+    background: #2b3441;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    font-size: 15px;
+}
+
+.left a {
+    color: white;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    font-size: 15px;
+}
+
+.right a {
+    color: white;
+    padding: 10px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+.dropdown-all {
+    height: 50px;
+    background-color: #2b3441;
+    width: 800px;
+    transform: translate(-0%, -50%);
+}
+
+.pic1 {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    /* transform: translate(0%, -50%); */
+}
+
+.pic {
+    position: absolute;
+    top: 38%;
+    left: 34%;
+    transform: translate(0%, -50%);
+}
+
+.pic-text {
+    position: absolute;
+    top: 32%;
+    left: 41%;
+    color: white;
+}
+
+.dropdown-inside select {
+    font-size: 18px;
+}
+
+.dropdown-inside button {
+    font-size: 16.5px;
+}
+
+.dropdown-inside {
+    padding: 12px 8px 12px 8px;
+}
